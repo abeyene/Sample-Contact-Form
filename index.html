@@ -15,17 +15,22 @@
 
 		<div id="WRAPPER">
 			<div id="inputs">
-				First name: <br>
-				<input type="text" name="txt1" value="first name"> <br>
-				Last name: <br>
-				<input type="text" name="txt2" value="last name"> <br>
-				Email: <br>
-				<input type="text" name="txt3" value="email address"> <br>
+				<form action="" method="">
+				First name: <input type="text" name="txt1" value="first name"> <br>
+				Last name: <input type="text" name="txt2" value="last name"> <br>
+				E-mail: <input type="text" name="txt3" value="e-mail address"> <br> <br>
+				</form>
 			</div>
 
 			Message: <br>
-			<textarea name="msg"> </textarea> <br>
-			Sex: <input type="text" name="sex" value="Male"> Male <input type="text" name="sex" value="Female"> Female
+			<form>
+			<textarea name="msg"> </textarea> <br><br>
+			Sex: <input type="radio" name="sex" value="Male"> Male <input type="radio" name="sex" value="Female"> Female <br><br>
+
+			<input type="checkbox" name="chk" value="updates" checked="true"> I'd like to receive notices when this website updates. <br>
+			<input type="checkbox" name="chk" value="related"> I'd like to receive notices pertaining to related websites and their services. <br><br>
+			<input type="submit" name="sbt" value="Submit" disabled="true">
+			</form>
 		</div>
 	</body>
 </html>

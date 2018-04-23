@@ -3,7 +3,7 @@
 	font-family: lobster;
 	text-align: center;
 	background-color: #00A0B0;
-	height: 100px;
+	height: 40px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	position: relative;
@@ -12,15 +12,29 @@
 
 #WRAPPER {
 	position: relative;
-	top: -15px;
-	border-left: 5px solid grey;	
-	border-right: 5px solid grey;	
-	border-bottom: 5px solid grey;	
+	top: -10px;
+	border-left: 1px solid grey;	
+	border-right: 1px solid grey;	
+	border-bottom: 1px solid grey;	
 	box-shadow: 5px 5px 5px grey;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
 }
 
-input {
-	font-family: verdana, helvetica, arial;
-	font-size: 12pt;
-	color: black;
+#inputs {
+	width: 200px;
+}
+
+#inputs input {
+	font-family: Verdana, Arial, sans-sertif;
+	width: 90%;
+	clear: both;
+	color: #777;
+}
+
+textarea {
+	width: 400px;
 }
