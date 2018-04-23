@@ -1,0 +1,26 @@
+#HEADER {
+	color: white;
+	font-family: lobster;
+	text-align: center;
+	background-color: #00A0B0;
+	height: 100px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	position: relative;
+	top: -10px;
+}
+
+#WRAPPER {
+	position: relative;
+	top: -15px;
+	border-left: 5px solid grey;	
+	border-right: 5px solid grey;	
+	border-bottom: 5px solid grey;	
+	box-shadow: 5px 5px 5px grey;
+}
+
+input {
+	font-family: verdana, helvetica, arial;
+	font-size: 12pt;
+	color: black;
+}
